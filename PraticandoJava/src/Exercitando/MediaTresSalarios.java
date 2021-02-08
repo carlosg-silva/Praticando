@@ -8,7 +8,7 @@ public class MediaTresSalarios {
 
 		Scanner entrada = new Scanner(System.in);
 		
-		// .replace("," , ".") foi usado para substituir  vírgula "," por ponto "." se necessário.
+		// .replace("," , ".") foi15 usado para substituir  vírgula "," por ponto "." se necessário.
 		
 		System.out.print("Informe o primeiro salário: ");
 		String valor1 = entrada.next().replace(",", ".");
