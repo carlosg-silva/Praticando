@@ -10,7 +10,7 @@ public class DataTeste {
 		 d1.mes = 3;
 		 d1.ano = 2021;
 		 
-		 System.out.printf("%d/%d/%d", d1.dia, d1.mes, d1.ano);
+		 System.out.println(d1.obterDataFormatada());
 		 
 		 var d2 = new Data();
 		 
@@ -18,7 +18,7 @@ public class DataTeste {
 		 d2.mes = 06;
 		 d2.ano = 2020;
 		 
-		 System.out.printf("%d/%d/%d", d2.dia, d2.mes, d2.ano);
+		 System.out.println(d2.obterDataFormatada());
 
 	}
 
